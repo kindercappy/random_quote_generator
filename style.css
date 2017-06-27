@@ -1,0 +1,164 @@
+body{
+	width: 100%;
+	/* opacity: .7; */
+	background-color: #333;
+  	color: #333;
+  	padding: 5rem;
+}
+.container{
+	/* margin: 0 auto; */
+	background-color: white;
+	width: 50%;
+	padding: 1rem;
+	border-radius: 1rem;
+	-webkit-box-shadow: inset 0px 0px 55px 2px rgba(43,21,189,1);
+	-moz-box-shadow: inset 0px 0px 55px 2px rgba(43,21,189,1);
+	box-shadow: inset 0px 0px 5px 2px rgba(43,21,189,1);
+}
+blockquote{
+	width: 50%;
+	/* margin: 0 auto; */
+	border-radius: 5px;
+	background-color: white;
+	/* font-weight: 700; */
+}
+.row{
+	width: 0%;
+	/* margin: 1rem auto; */
+	padding: .5rem 2rem;
+}
+.container-btn button{
+	width: 100%;
+	margin: 3px;
+  	background-color: lightgray;
+  	border: 1px solid transparent;
+  	color: #00537B;
+  	font-weight: 300;
+  	-webkit-border-radius: 3px;
+  	/* border-radius: 10px; */
+  	-webkit-transition: all 0.3s ease-in-out;
+  	-moz-transition: all 0.3s ease-in-out;
+  	transition: all 0.5s ease-in-out;
+  	border-radius: 5px;
+  	-webkit-box-shadow: 0px 0px 4px 1px rgba(43,21,189,1);
+	-moz-box-shadow: 0px 0px 4px 1px rgba(43,21,189,1);
+	box-shadow: 0px 0px 4px 1px rgba(43,21,189,1);
+}
+.container-btn button:hover{
+	background-color: #ffffff;
+  	color: black;
+  	/* border-color: black; */
+}
+#quoteAuthor {
+color:darkgray;
+font-size: 1rem;
+display: block;
+margin-top: 5px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
+}
+/* col- */
+@media all and (max-width: 576px) {
+	body{
+  		padding: .5rem;		
+	}
+	.container{
+		width: 80%;
+	}
+
+	blockquote{
+		width: 100%;
+	}
+	.row{
+		width: 100%;
+	}
+	.container-btn button{
+		width: 100%;
+	}
+}
+/* col-sm */
+@media all and (min-width: 577px) and (max-width: 767px){
+	body{
+  		padding: 2rem;		
+	}
+	.container{
+		width: 90%;
+	}
+	blockquote{
+		width: 100%;
+	}
+	.row{
+		width: 100%;
+	}
+	.container-btn button{
+		width: 100%;
+	}
+}
+/* col-md */
+@media all and (min-width: 768px) and (max-width: 991px){
+	body{
+  		padding: 2rem;		
+	}
+	.container{
+		width: 70%;
+	}
+	blockquote{
+		width: 95%;
+	}
+	.row{
+		width: 95%;
+	}
+	.container-btn button{
+		width: 100%;
+	}
+	#quoteAuthor {
+		font-size: 2rem;
+	}
+	.quoteText{
+		font-size: 2rem;
+	}
+}
+/* col-lg */
+@media all and (min-width: 992px) and (max-width: 1199px){
+	.container{
+		width: 70%;
+	}
+	blockquote{
+		width: 100%;
+	}
+	.row{
+		width: 100%;
+	}
+	.container-btn button{
+		width: 80%;
+	}
+	#quoteAuthor {
+		font-size: 2rem;
+	}
+	.quoteText{
+		font-size: 2rem;
+	}
+}
+/* col-xl */
+@media  all and (min-width: 1200px){
+	.container{
+		width: 50%;
+	}
+	blockquote{
+		width: 100%;
+	}
+	.row{
+		width: 100%;
+	}
+	.container-btn button{
+		width: 100%;
+	}
+	#quoteAuthor {
+		font-size: 2rem;
+	}
+	.quoteText{
+		font-size: 2rem;
+	}
+}
